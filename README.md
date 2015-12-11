@@ -10,7 +10,7 @@ PiSec Features:
 * Network status query
 * Zones
 * Alarm e-mail alerts with pictures
-* Companion Android App
+* [Companion Android App](https://github.com/binarybird/PiSec-Android)
 
 ![alt text](screen.png "main gui")
 ![alt text](cmd.png "main cli")
