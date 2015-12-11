@@ -1,0 +1,1 @@
+cd /home/pi/Downloads && sudo java -Dcom.sun.javafx.touch=true -Dcom.sun.javafx.isEmbedded=true -Dcom.sun.javafx.vk.adjustwindow=true -Dcom.sun.javafx.virtualKeyboard=javafx -Djava.ext.dirs=/home/pi/armv6hf-sdk/rt/lib/ext -cp .:$JAVA_HOME/jre/lib/ext/sunjce_provider.jar:/home/pi/Downloads/com.PiSec-1.0-jar-with-dependencies.jar pisec.Main 

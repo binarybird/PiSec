@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="359.0" prefWidth="489.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="381.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.0" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="60.0" prefWidth="70.0" text="Back" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" />
+      <Label layoutX="268.0" layoutY="14.0" text="System Settings" AnchorPane.rightAnchor="15.0" />
+      <Separator layoutX="12.0" layoutY="35.0" prefHeight="5.0" prefWidth="359.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Button fx:id="restartButton" layoutX="176.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleRestartButton" prefHeight="60.0" prefWidth="85.0" text="Restart" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="120.0" />
+      <Button fx:id="shutdownButton" layoutX="275.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleShutdownButton" prefHeight="60.0" prefWidth="85.0" text="Shutdown" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="20.0" />
+         <ScrollPane layoutX="15.0" layoutY="40.0" prefHeight="232.0" prefWidth="459.0">
+           <content>
+             <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="310.0" prefWidth="453.0">
+                  <children>
+                  <VBox alignment="TOP_RIGHT" prefHeight="137.0" prefWidth="98.0" spacing="24.0" AnchorPane.leftAnchor="15.0">
+                     <children>
+                        <Label text="E-mail:" />
+                        <Label text="Log Location:" />
+                        <Label text="WiFi Device:" />
+                        <Label text="Image Saves:" />
+                           <Label text="Disarm Time:" />
+                           <Label text="Arm Time:" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="114.0" prefWidth="238.0" spacing="13.0" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="15.0">
+                     <children>
+                        <TextField fx:id="emailTextField" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="246.0" />
+                        <TextField fx:id="logLocationTextField" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="246.0" />
+                        <TextField fx:id="wifiDeviceTextField" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="246.0" />
+                        <TextField fx:id="imageSavedirTextField" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="246.0" />
+                           <TextField fx:id="disarmTimeTextField" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="246.0" />
+                           <TextField fx:id="armTimeTextfield" maxWidth="1.7976931348623157E308" prefHeight="26.0" prefWidth="246.0" />
+                     </children>
+                  </VBox>
+                  </children>
+               </AnchorPane>
+           </content>
+         </ScrollPane>
+   </children>
+</AnchorPane>
+   </fx:root>
